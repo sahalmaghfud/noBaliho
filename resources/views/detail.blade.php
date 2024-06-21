@@ -32,8 +32,7 @@
                     <div class="bg-white p-4 rounded shadow">
                         <h2 class="text-lg font-bold mb-2">Profile Photo</h2>
                         <div class="w-32 h-32 bg-gray-300 rounded-full mx-auto overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Profile Photo"
-                                class="w-full h-full object-cover">
+                            <img class="w-52 h-48" src="{{ url('/images/gub' . rand(1, 4) . '.jpeg') }}">
                         </div>
                     </div>
                 </div>
@@ -78,14 +77,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center mt-8">
-                <div class="w-32 h-32 bg-gray-300 rounded-full mx-4 overflow-hidden">
-                    <img src="https://via.placeholder.com/150" alt="Image 1" class="w-full h-full object-cover">
-                </div>
-                <div class="w-32 h-32 bg-gray-300 rounded-full mx-4 overflow-hidden">
-                    <img src="https://via.placeholder.com/150" alt="Image 2" class="w-full h-full object-cover">
-                </div>
-            </div>
+
         </div>
     </main>
 

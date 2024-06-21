@@ -11,7 +11,7 @@
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
     <div class="container mx-auto my-10 p-4">
         <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <div class="bg-gradient-to-r from-blue-500 to-green-400 p-4">
+            <div class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-4">
                 <h2 class="text-white text-2xl font-bold">Edit Profil Gubernur</h2>
             </div>
             <div class="p-6">

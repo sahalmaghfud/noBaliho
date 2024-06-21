@@ -30,7 +30,7 @@ class gubernurController extends Controller
 
     public function edit($id)
     {
-        $gubernur = Gubernur::findOrFail($id);
+        $gubernur = gubernur::findOrFail($id);
         return view('edit', compact('gubernur'));
     }
 
@@ -44,7 +44,7 @@ class gubernurController extends Controller
             'twitter' => 'nullable|string|max:45',
         ]);
 
-        $gubernur = Gubernur::findOrFail($id);
+        $gubernur = gubernur::findOrFail($id);
         $gubernur->update($request->only('profil', 'program', 'facebook', 'instagram', 'twitter'));
 
         return redirect()->route('gubernur.edit', $gubernur->id)->with('success', 'Data gubernur berhasil diperbarui.');

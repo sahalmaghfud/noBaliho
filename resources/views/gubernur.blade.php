@@ -77,7 +77,7 @@
         @foreach ($gubernurs as $gubernur)
             <a href="/gubernur/{{ $gubernur->id }}">
                 <div class="w-64 rounded overflow-hidden shadow-lg mx-5 my-5">
-                    <img class="" src="{{ url('/images/gambar' . rand(1, 2) . '.jpeg') }}"
+                    <img class="w-52 h-48" src="{{ url('/images/gub' . rand(1, 4) . '.jpeg') }}"
                         alt={{ $gubernur->id }}>
                     <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">{{ $gubernur->nama }}</div>

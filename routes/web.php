@@ -26,5 +26,5 @@ Route::get('/{provinsi}/gubernur', [gubernurController::class, 'showpr'])->name(
 Route::get('/{provinsi}/walikota', [walikotaController::class, 'showpr']);
 
 
-Route::get('/gubernur/{id}/edit', [GubernurController::class, 'edit'])->name('gubernur.edit');
-Route::put('/gubernur/{id}', [GubernurController::class, 'update'])->name('gubernur.update');
+Route::get('/gubernur/{id}/edit', [gubernurController::class, 'edit'])->name('gubernur.edit');
+Route::put('/gubernur/{id}', [gubernurController::class, 'update'])->name('gubernur.update');

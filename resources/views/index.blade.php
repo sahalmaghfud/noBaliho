@@ -29,7 +29,7 @@
             <select id="countries"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
                 onchange="navigateToURL(this)">
-                <option selected disabled>Choose a country</option>
+                <option selected disabled>Pilih Provinsi</option>
                 @foreach ($provinsis as $provinsi)
                     <option value="{{ $provinsi->id }}/gubernur">{{ $provinsi->nama }}</option>
                 @endforeach
